@@ -2,73 +2,73 @@
 
 Real-time AI-powered safety monitoring system capable of detecting:
 
-*Fire
+* Fire
 
-*Violent Behavior
+* Violent Behavior
 
-*Weapons (Knife, Scissors)
+* Weapons (Knife, Scissors)
 
-*People
+* People
 
-*Other Objects (Optional Info Mode)
+* Other Objects (Optional Info Mode)
 
 Built using:
 
-*Python
+* Python
 
-*YOLOv8 (from Ultralytics)
+* YOLOv8 (from Ultralytics)
 
-*OpenCV
+* OpenCV
 
-*Threaded Text-to-Speech Alerts
+* Threaded Text-to-Speech Alerts
 
 # Features
 
-1.Fire Detection
+**1.Fire Detection**
 
--Computer vision-based fire detection using HSV color segmentation
+- Computer vision-based fire detection using HSV color segmentation
 
--Flicker pattern analysis for realistic fire behavior detection
+- Flicker pattern analysis for realistic fire behavior detection
 
--Bounding box localization
+- Bounding box localization
 
--Emergency alert triggering
+- Emergency alert triggering
 
-2.Violence Detection
+**2.Violence Detection**
 
--Motion-based violence detection
+- Motion-based violence detection
 
--Frame-difference spike detection
+- Frame-difference spike detection
 
--Sudden motion variance analysis
+- Sudden motion variance analysis
 
--Real-time violent behavior alerts
+- Real-time violent behavior alerts
 
-3.Weapon Detection
+**3.Weapon Detection**
 
-*Powered by YOLOv8 object detection
+* Powered by YOLOv8 object detection
 
-*Detects:Knife,Scissors
+* Detects:Knife,Scissors
 
-*Automatic emergency classification
+* Automatic emergency classification
 
-4.Smart Alert System
+**4.Smart Alert System**
 
--Multi-frame validation before triggering alerts
+- Multi-frame validation before triggering alerts
 
--Alert cooldown system
+- Alert cooldown system
 
--Emergency vs Informational alerts
+- Emergency vs Informational alerts
 
--On-screen alert dashboard
+- On-screen alert dashboard
 
-5.Voice Alert System
+**5.Voice Alert System**
 
--Threaded Text-to-Speech engine
+- Threaded Text-to-Speech engine
 
--Non-blocking voice notifications
+- Non-blocking voice notifications
 
--Toggle ON/OFF during runtime
+- Toggle ON/OFF during runtime
 
 # Interactive Controls
 
@@ -94,39 +94,39 @@ Built using:
 
 The system consists of three main detection modules:
 
-1️) Object Detection
+**1️) Object Detection**
 
--Uses YOLOv8n
+- Uses YOLOv8n
 
--Real-time inference
+- Real-time inference
 
--Configurable confidence threshold
+- Configurable confidence threshold
 
-2️) Fire Detection Module
+**2️) Fire Detection Module**
 
--HSV color masking (Red, Yellow, Orange)
+- HSV color masking (Red, Yellow, Orange)
 
--Flicker pattern analysis
+- Flicker pattern analysis
 
--Contour-based bounding box detection
+- Contour-based bounding box detection
 
-3️) Violence Detection Module
+**3️) Violence Detection Module**
 
--Frame differencing
+- Frame differencing
 
--Motion spike detection
+- Motion spike detection
 
--Statistical variance analysis
+- Statistical variance analysis
 
 # Installation
 
-1️⃣ Clone the Repository
+**Clone the Repository**
 
 git clone https://github.com/your-username/advanced-ai-safety-monitor.git
 
 cd advanced-ai-safety-monitor
 
-2️⃣ Install Dependencies
+**Install Dependencies**
 
 pip install -r requirements.txt
 
@@ -134,7 +134,7 @@ Or manually install:
 
 pip install ultralytics opencv-python torch torchvision numpy pyttsx3 pillow
 
-3️⃣ Download YOLO Weights
+**Download YOLO Weights**
 
 The system uses:
 
@@ -152,7 +152,7 @@ python v2.py
 
 The camera will start automatically.
 
-⚙️ Configuration
+# Configuration
 
 Inside the AdvancedSafetyMonitor class:
 
@@ -170,11 +170,11 @@ self.config = {
 
 You can adjust:
 
--Resolution
+- Resolution
 
--Detection sensitivity
+- Detection sensitivity
 
--Alert triggering frames
+- Alert triggering frames
 
 # Alert Classification
 
@@ -196,28 +196,28 @@ You can adjust:
 
 # Performance Optimizations
 
--Inference runs every 2 frames
+- Inference runs every 2 frames
 
--Cached detections
+- Cached detections
 
--Threaded TTS engine
+- Threaded TTS engine
 
--Frame resizing
+- Frame resizing
 
--Alert cooldown logic
+- Alert cooldown logic
 
 # Future Improvements
 
-*Custom-trained fire detection model
+* Custom-trained fire detection model
 
-*Deep-learning based violence classifier
+* Deep-learning based violence classifier
 
-*Web dashboard
+* Web dashboard
 
-*Cloud alert integration
+* Cloud alert integration
 
-*Email/SMS notifications
+* Email/SMS notifications
 
-*Multi-camera support
+* Multi-camera support
 
-*Edge deployment optimization
+* Edge deployment optimization
