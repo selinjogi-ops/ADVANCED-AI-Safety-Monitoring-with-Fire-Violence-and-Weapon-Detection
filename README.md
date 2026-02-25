@@ -1,4 +1,4 @@
-# ADVANCED AI Safety Monitoring with Fire Violence and Weapon Detection
+# Advanced AI Safety Monitoring with Fire Violence and Weapon Detection
 
 Real-time AI-powered safety monitoring system capable of detecting:
 
